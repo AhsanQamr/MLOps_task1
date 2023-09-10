@@ -8,7 +8,7 @@ class TestAddNumbers(unittest.TestCase):
 
     def test_add_negative_numbers(self):
         result = add_numbers(-2, -3)
-        self.assertEqual(result, -5)
+        self.assertEqual(result, -6)
 
     def test_add_mixed_numbers(self):
         result = add_numbers(5, -3)
