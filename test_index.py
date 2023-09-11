@@ -16,3 +16,6 @@ class TestAddNumbers(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+            # pip install -r requirements.txt
+        #python -m unittest discover -s . -p "test_*.py"
